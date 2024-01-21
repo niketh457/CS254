@@ -21,8 +21,8 @@ void sort(vector<long long> &a, int m){
 
 int main(){
 
-    freopen("test_cases_Q3.txt","r",stdin);
-    freopen("output_Q3.txt","w",stdout);
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
     
     int n;
     cin >> n;
