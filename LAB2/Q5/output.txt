@@ -1,0 +1,1 @@
+First minima: 1 and second minima: 33
