@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
-#define rep(i, a, b) for (int i = a; i < b; ++i)
-#define all(v) v.begin(), v.end()
-typedef long long ll;
-typedef long double ld;
+
 using namespace std;
 int main() {
 
