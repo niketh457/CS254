@@ -221,7 +221,7 @@ int main()
                 cin >> B[i][j];
             }
         }
-        vector<vector<float>> C = strassen(A, B);
+        vector<vector<float>> C = matrixMultiply(A, B);
 
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
