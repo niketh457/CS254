@@ -50,7 +50,7 @@ int main(){
 
    
     int n, m; cin >> n >> m;
-    vector<int> a(n);
+    vector<long long> a(n);
     
     for(int i=0; i<n; i++)
         cin >> a[i];
@@ -59,7 +59,7 @@ int main(){
     
     cout << "Sorted Array: ";
     
-    for(int& x:a)
+    for(auto& x:a)
         cout << x << " ";
     
         
