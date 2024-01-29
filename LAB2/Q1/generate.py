@@ -8,7 +8,7 @@ def generate_and_save_random_numbers(n, file_path):
         for number in random_numbers:
             file.write(str(number) + ' ')
 
-file_path = 'input.txt'
+file_path = 'LAB2/input.txt'
 
 generate_and_save_random_numbers(10000, file_path)
 

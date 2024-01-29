@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <unordered_set>
 #include "merge_sort.h"
 
 using namespace std;
@@ -13,9 +14,9 @@ vector<int> union_set(vector<int> &a, vector<int> &b){
 		req.emplace(i);
 	
 	for(int &i: b)
-		req.emplace(j);
+		req.emplace(i);
 		
-	for(int &i: req)
+	for(int i: req)
 		ans.emplace_back(i);
 	
 	return ans;
@@ -26,7 +27,9 @@ int main(){
 
         freopen("input_b.txt", "r", stdin); 
         freopen("output_b.txt", "w", stdout);
-        
+    
+	int size_a, size_b;
+
 	cin >> size_a >> size_b;
 	vector<int> a(size_a), b(size_b);
 	

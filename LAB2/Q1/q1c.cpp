@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <unordered_set>
 #include "merge_sort.h"
 
 using namespace std;
@@ -27,6 +28,8 @@ int main(){
         freopen("input_c.txt", "r", stdin); 
         freopen("output_c.txt", "w", stdout);
         
+	int size_a, size_b;
+	
 	cin >> size_a >> size_b;
 	vector<int> a(size_a), b(size_b);
 	
