@@ -1,0 +1,1 @@
+The median of the complete array is 2287225
