@@ -73,10 +73,12 @@ int main(){
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n ;j++){
                 cin >> matrix[i][j];
+
+                matrix[i][j] != matrix[i][j];
             }
         }
 
-        compliment_graph(matrix);
+        // compliment_graph(matrix);
 
         if(check_2_clique(matrix)){
             cout << "The given graph can be divided into 2 cliques" << endl;
