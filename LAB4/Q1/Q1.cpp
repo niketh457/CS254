@@ -70,11 +70,11 @@ int numberOfInversions(vector<int>&a, int n) {
 }
 
 int main(){
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
 
-    int t;
-    cin >> t;
+    int t = 1;
+    // cin >> t;
 
     while(t--){
         int n;
