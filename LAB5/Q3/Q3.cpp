@@ -74,7 +74,8 @@ int main(){
             for(int j = 0; j < n ;j++){
                 cin >> matrix[i][j];
 
-                matrix[i][j] != matrix[i][j];
+                if(i != j)
+                matrix[i][j] = 1 - matrix[i][j];
             }
         }
 
