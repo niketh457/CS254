@@ -25,8 +25,6 @@ vector<int> topological_sort(vector<vector<int>> &adj){
         st.pop();
     }
 
-    reverse(res.begin(), res.end());
-
     return res;
 }
 

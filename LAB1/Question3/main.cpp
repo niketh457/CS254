@@ -15,7 +15,7 @@ int func(int i, int s){
     if(__builtin_popcount(s) == 2)
         return dp[i][s] = adj[0][i];
     
-    int res = INT_MAX;
+    int res = INT32_MAX;
     for(int msk = 1; msk < n; msk++)
         if((s & (1 << msk)) && msk != i)
             res = min(res, func(msk, s ^ (1 << i)) + adj[msk][i]);

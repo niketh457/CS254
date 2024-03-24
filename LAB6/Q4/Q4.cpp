@@ -1,11 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// const int N = 1e5+5;
-// int V, E;
-// vector<int> adj[N];
-// bool visited[N], cvisited[N];
-
 bool dfs(int s, vector<vector<int>> &adj, vector<bool> &visited, vector<bool> &cvisited){
     visited[s] = 1;
     cvisited[s] = 1;

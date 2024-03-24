@@ -53,7 +53,7 @@ void merge_sort(vector<int> &arr, int start, int end){
 	merge_sort(arr, start, mid);
 	merge_sort(arr, mid+1, end);
 	
-	merge1(arr, start, mid, end);
+	merge(arr, start, mid, end);
 }
 
 
